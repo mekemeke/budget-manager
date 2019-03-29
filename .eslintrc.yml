@@ -1,0 +1,23 @@
+env:
+  browser: true
+  es6: true
+  node: true
+extends: 'plugin:vue/base'
+parserOptions:
+  ecmaVersion: 2016
+  sourceType: module
+rules:
+  no-console:
+    - off
+  indent:
+    - error
+    - 2
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - double
+  semi:
+    - error
+    - always
